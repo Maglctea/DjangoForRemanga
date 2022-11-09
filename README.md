@@ -128,8 +128,8 @@ pip install djangorestframework
 {
     "detail": "Страница не найдена."
 }
----
 ```
+---
 ### Постановка лайка
 **PUT** http://127.0.0.1:8000/api/v1/title=1/volume=1/chapter=1/like/
 
