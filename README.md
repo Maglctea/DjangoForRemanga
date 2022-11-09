@@ -4,18 +4,20 @@
 pip install django
 pip install djangorestframework
 ```
-## Запуск
+## Запуск сервера
 `python manage.py runserver 0.0.0.0:8000 `
 
-## Администрирование
+## Вход в админ панель
 `http://127.0.0.1:8000/admin/`
 
 **Логин** - `root`
 
 **Пароль** - `root`
 
+## Запуск тестов
+`python manage.py test book.tests.test_api`
 
-## Запросы
+## Работа с запросами
 ### Получения списка книг
 **GET** http://127.0.0.1:8000/api/v1/title/
 
