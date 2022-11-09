@@ -1,8 +1,19 @@
 # Тестовое задание для Remanga.org
 ## Установка
-`pip install req.txt`
+```
+pip install django
+pip install djangorestframework
+```
 ## Запуск
 `python manage.py runserver 0.0.0.0:8000 `
+
+## Администрирование
+`http://127.0.0.1:8000/admin/`
+
+**Логин** - `root`
+
+**Пароль** - `root`
+
 
 ## Запросы
 Получения списка книг
